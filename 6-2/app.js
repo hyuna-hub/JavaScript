@@ -1,8 +1,13 @@
-var i;
-var num = 0;
+var num = 12;
+var number = 5;
 
-for(i = 1; i < 11; i++){
-	num = num + i;
-}
 
-alert('1から10まで足し算した結果は' + num + 'です');
+alert(num + number);
+
+alert(num - number);
+
+alert(num * number);
+
+alert(num / number);
+
+alert(num % number);
